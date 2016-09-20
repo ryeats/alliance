@@ -17,7 +17,7 @@
     <parent>
         <artifactId>imaging</artifactId>
         <groupId>org.codice.alliance.imaging</groupId>
-        <version>0.2-SNAPSHOT</version>
+        <version>0.2-2016-09-19</version>
     </parent>
     <artifactId>imaging-transformer-nitf</artifactId>
     <packaging>bundle</packaging>
@@ -138,7 +138,7 @@
                             jai-imageio-core,
                             jai-imageio-jpeg2000
                         </Embed-Dependency>
-                        <Export-Package/>
+                        <Export-Package />
                         <Import-Package>!sun.security.action,*</Import-Package>
                     </instructions>
                 </configuration>
